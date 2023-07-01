@@ -1,3 +1,12 @@
+/* Logo font: Open Sans Regular */
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans-regular-webfont.woff2') format('woff2'),
+         url('opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -294,17 +303,17 @@ a:hover {
 
 .navbar-brand {
     height: auto;
-    padding: 3px 15px;
+    padding: 0;
     font-size: 25px;
-    font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    display: grid;
+    grid-template-columns: 50px minmax(0, 1fr);
 }
 
 .navbar-brand img {
     max-height: 200px;
-    margin: 0 5px 0 0;
-    display: inline;
+    height: 50px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -313,6 +322,14 @@ a:hover {
 
 .nav-center .navbar-brand img {
     margin: 0;
+    padding: 0;
+}
+
+.navbar-brand p {
+    font-family: 'open_sansregular';
+    font-size: 1em;
+    margin: 0;
+    padding: 0!important;
 }
 
 .navbar .nav {
@@ -961,10 +978,7 @@ h4 {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-    .navbar-brand img {
-        max-height: 40px;
-        width: auto;
-    }
+
     .nav-invert .navbar-header {
         float: none;
         width: 100%;
