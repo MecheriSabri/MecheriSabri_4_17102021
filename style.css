@@ -709,6 +709,8 @@ p {
     font-family: "Open Sans";
 }
 
+#title {color:#FFFFFF!important;}
+
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
