@@ -54,7 +54,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -742,7 +742,10 @@ h3 {
     padding: 0 35px 0 35px;
 }
 
-.text-container p {font-size: 1.5em;}
+.text-container p {
+    margin-top: 10px;
+    font-size: 22px;
+}
 .text-container .quote-source {
     font-size: 16px;
 }
