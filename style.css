@@ -827,8 +827,8 @@ footer p {
     text-decoration: underline!important;
 }
 
-.bgc-white {
-    background-color: #FFFFFF;
+.background-gray {
+    background-color: rgb(220, 218, 215);
 }
 
 .bgc-dark-slate-blue {
