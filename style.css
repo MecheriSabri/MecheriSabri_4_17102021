@@ -914,20 +914,12 @@ footer ul li a:hover {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.portfolio-background {
-    background-image: url("img/background-portfolio.webp");
-}
-
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
